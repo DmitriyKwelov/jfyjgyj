@@ -42,11 +42,20 @@ header{
     color: #fff;
     text-decoration: none;
     padding: 8px 16px;
+    font-size: 16px;
 }
 .header-number-d p{
     font-weight: 600;
     color: #fff;
     margin: 0;
+    font-size: 16px;
+}
+.header-number-d a{
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    text-decoration: none;
+    font-size: 16px;
 }
 .div-burger{
     display: none;
@@ -55,7 +64,6 @@ header{
     display: none;
 }
 main{
-    height: 1000px;
     width: 100%;
 }
 section{
@@ -69,6 +77,12 @@ section{
     width: 100%;
     top: 0;
     z-index: -1;
+}
+.scroll-block{
+    overflow: hidden;
+}
+.back-for-burger-menu{
+    display: none;
 }
 h1{
     font-family: 'Open Sans', sans-serif;
@@ -87,6 +101,12 @@ h2{
     font-size: 48px;
     line-height: 110.68%;
     color: #1A1A1A;
+}
+.title-m{
+    display: none;
+}
+.br-xs-d{
+    display: none;
 }
 #first-section{
     background: url("img/Group\ 49.jpg") 0 0/100% auto no-repeat;
@@ -110,7 +130,8 @@ h2{
     margin: 30px 0 0 0;
 }
 .btn-link{
-    padding: 16px 48px;
+    padding: 16px 0;
+    width: 210px;
     border-radius: 4px;
     background: #FFFFFF;
     color: #1A1A1A;
@@ -120,13 +141,22 @@ h2{
     font-size: 20px;
     line-height: 27px;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
-#faegwefg{
+.btn-link:hover{
+    background: #FFFFFF;
+    color: #1A1A1A;
+}
+#btn-call{
     margin-right: 15px;
 }
 #btn-whatsapp{
     margin-left: 15px;
     background: #5EFA7B;
+}
+.title-section{
+    margin-bottom: 80px;
 }
 #arow-main-section{
     margin-top: 280px;
@@ -171,17 +201,19 @@ h2{
     align-items: center;
     flex-direction: column;
 }
+.all-day-benefit{
+    display: none;
+}
 .number-title{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 31px;
+    font-size: 32px;
     line-height: 110.68%;
     color: #1A1A1A;
     margin: 0 0 8px 0;
 }
 .number-description{
-    width: 100px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -193,9 +225,6 @@ h2{
 }
 #m-second-section-picture{
     display: none;
-}
-#third-section-content{
-    margin-top: 80px;
 }
 .item-price{
     width: 100%;
@@ -217,9 +246,10 @@ h2{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 26px;
     line-height: 110.68%;
     color: #FFFFFF;
+    text-align: center;
 }
 .description-price p{
     font-family: 'Open Sans', sans-serif;
@@ -229,9 +259,6 @@ h2{
     line-height: 110.68%;
     color: #FFFFFF;
     margin-bottom: 50px;
-}
-#fourth-section-content{
-    margin: 80px 0 0 0;
 }
 .benefits{
     display: flex;
@@ -266,7 +293,6 @@ h2{
 #fifth-section-content{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 80px;
     width: 100%;
     position: relative;
 }
@@ -308,17 +334,142 @@ h2{
 .arrow-from-circle{
     position: absolute;
     width: 100%;
-    bottom: 60px;
+    top: 20px;
     left: 0;
+}
+#sixth-section-content{
+    width: 100%;
+    position: relative;
+}
+.contact-m{
+    display: none;
+}
+.map-m{
+    display: none;
+}
+.info-on-map{
+    width: 436px;
+    height: 370px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 11;
+    right: 40px;
+    top: 50px;
+}
+.info-on-map-container{
+    padding: 25px 35px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.info-on-map-text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110.68%;
+    color: #1A1A1A;
+}
+.social-networks-on-map{
+    display: flex;
+    justify-content: center;
+}
+#social-item-inst{
+    margin: 0 20px;
+}
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 110.68%;
+    color: #1A1A1A;
+    text-align: center;
+}
+footer{
+    margin-top: 200px;
+    width: 100%;
+    background: #1A1A1A;
+}
+.footer-content{
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+}
+.footer-content ul{
+    list-style-type: none;
+    padding: 0;    
+}
+.footer-content li{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110.68%;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.footer-icon{
+    margin-right: 8px;
+}
+.title-foter{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 110.68%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.contacts{
+    margin: 0 20px;
+}
+.contacts li{
+    display: flex;
+    align-items: center;
+}
+.footer-content li a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110.68%;
+    color: #FFFFFF;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer-content li p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110.68%;
+    color: #FFFFFF;
+    margin: 0;
+    text-decoration: none;
 }
 @media (max-width: 1920px){
     #first-section{
         background: url("img/Group\ 49.jpg") no-repeat center;
     }
 }
+@media (max-width: 1280px){
+    .arrow-from-circle{
+        top: 23px;
+    }
+}
 @media (max-width: 1100px){
     .header-link-d li a{
         padding: 8px 8px;
+    }
+    .arrow-from-circle{
+        top: 25px;
     }
 }
 @media (max-width: 991px){
@@ -327,7 +478,7 @@ h2{
     }
     .div-burger{
         display: block;
-        z-index: 11;
+        z-index: 111;
     }
     #burger{
         width: 50px;
@@ -343,15 +494,30 @@ h2{
         position: absolute;
         padding: 50px 0 0 0;
         top: 0;
-        right: 1000px;
+        left: -600px;
         background: #1A1A1A;
-        width: 100%;
+        width: 400px;
         height: 100vh;
         transition: all 0.8s 0.1s ease;
+        z-index: 12;
     }
-    .mob-nav:hover{
-        background: #ff0000;
-        transition: all 0.8s 0.1s ease;
+    .arrow-from-circle{
+        top: 28px;
+    }
+    .back-for-burger-menu{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #000000;
+        opacity: 0;
+        z-index: 11;
+    }
+    .activ-bg{
+        display: block;
+        opacity: 0.5;
     }
     .mob-nav ul{
         display: flex;
@@ -360,20 +526,33 @@ h2{
         padding: 0;
         margin: 0;
     }
+    .mob-nav li{
+        margin: 4px 0;
+    }
     .mob-nav li a{
         font-weight: 600;
         color: #fff;
         text-decoration: none;
-        padding: 8px 16px;
+        padding: 4px 16px;
+        font-size: 24px;
+        margin: 16px 0;
     }
     .mob-nav p{
         font-weight: 600;
         color: #fff;
         text-decoration: none;
-        padding: 8px 16px;
+        padding: 4px 0;
+        font-size: 24px;
+    }
+    .mob-nav a{
+        font-weight: 600;
+        color: #fff;
+        text-decoration: none;
+        padding: 4px 16px;
+        font-size: 24px;
     }
     .active{
-        right: 0;
+        left: 0;
         transition: all 0.8s 0.1s ease;
         display: block;
     }
@@ -388,6 +567,19 @@ h2{
         width: 33.33%;
         margin-bottom: 40px;
     }
+    .circle-number-with-text{
+        margin-right: 50px;
+    }
+    .info-on-map{
+        width: 436px;
+        height: 370px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        position: absolute;
+        z-index: 11;
+        right: 10px;
+        top: 50px;
+    }
 }
 @media (max-width: 768px){
     h1{
@@ -399,6 +591,12 @@ h2{
         color: #FFFFFF;
         text-align: center;
         margin: 0 0 26px 0;
+    }
+    .title-m{
+        display: block;
+    }
+    .title-d{
+        display: none;
     }
     .br-sm-none{
         display: none;
@@ -412,16 +610,90 @@ h2{
         text-align: center;
         color: #FFFFFF;
     }
+    .info-on-map{
+        display: none;
+    }
+    h5{
+        font-size: 36px;
+        text-align: start;
+    }
+    .contact-m{
+        display: block;
+    }
+    .info-on-map-text{
+        margin: 20px 0;
+    }
+    .social-networks-on-map{
+        display: flex;
+        justify-content: start;
+        margin: 0 0 30px 0;
+    }
+}
+@media (max-width: 676px){
+    .contacts{
+        margin: 0;
+    }
+    .social-networks{
+        margin: 40px 80px 0 0;
+    }
+    .circle-number-with-text{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        z-index: 3;
+        margin: 20px 0 0 0;
+        width: 100% ;
+    }
+    .circle-number-with-text p{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 110.68%;
+        color: #1A1A1A;
+        margin: 0 0 0 20px;
+    }
+    .arrow-from-circle-m{
+        position: absolute;
+        top: 20px;
+        left: 37px;
+        content: '';
+        width: 5px;
+        height: 350px;
+        background: #1A1A1A;
+    }
+    .arrow-from-circle{
+        display: none;
+    }
 }
 @media (max-width: 576px){
+    #first-section{
+        height: 100%;
+    }
     #first-section-content{
-        padding-top: 250px;
+        padding-top: 200px;
+    }
+    #arow-main-section {
+        margin-top: 100px;
+        padding: 0 0 50px 0;
     }
     h1{
         font-size: 32px;
     }
     h2{
         font-size: 30px;
+    }
+    h5{
+        font-size: 24px;
+    }
+    .title-section{
+        margin-bottom: 40px;
+    }
+    .title-about-company{
+        margin-bottom: 40px;
+    }
+    .number-title{
+        font-size: 28px;
     }
     .main-btns{
         flex-direction: column;
@@ -430,8 +702,11 @@ h2{
     #btn-whatsapp{
         margin: 20px 0 0 0;
     }
-    #faegwefg{
+    #btn-call{
         margin: 0;
+    }
+    .mob-nav{
+        width: 100%;
     }
     .logo-text{
         padding: 8px 12px;
@@ -444,6 +719,60 @@ h2{
         width: 50%;
     }
     .container{
-        padding: 0 10px;
+        padding: 0 20px;
+    }
+    .social-networks{
+        margin: 40px 0 0 0;
+    }
+    .contacts{
+        margin: 0 0 0 20px;
+    }
+    .number-description{
+        font-size: 12px;
+    }
+    .description-price p{
+        font-size: 18px;
+    }
+    .description-price h3{
+        font-size: 24px;
+    }
+    .benefit p{
+        font-size: 18px;
+    }
+    .map-d{
+        display: none;
+    }
+    .map-m{
+        display: block;
+    }
+    footer{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 449px){
+    .contacts{
+        margin: 40px 20px 0 0;
+    }
+    .social-networks{
+        margin: 40px 0 0 0;
+    }
+    .br-xs-d{
+        display: block;
+    }
+}
+@media (max-width: 354px){
+    .text-24-benefit{
+        display: none;
+    }
+    .all-day-benefit{
+        display: block;
+    }
+}
+@media (max-width: 319px){
+    .number-description{
+        font-size: 10px;
+    }
+    .number-title{
+        font-size: 18px;
     }
 }

@@ -21,17 +21,17 @@
                 <div class="header-link-d">
                     <nav>
                         <ul>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">О нас</a></li>
-                            <li><a href="#">Цены</a></li>
-                            <li><a href="#">Преимущества</a></li>
-                            <li><a href="#">Как мы работаем</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#main">Главная</a></li>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#price">Цены</a></li>
+                            <li><a href="#benefit">Преимущества</a></li>
+                            <li><a href="#how-work">Как мы работаем</a></li>
+                            <li><a href="#location">Контакты</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="header-number-d">
-                    <p>+7 (915) 461-18-86</p>
+                    <p><a href="tel:+79154611886">+7 (915) 461-18-86</a></p>
                 </div>
                 <div class="div-burger">
                     <img id="burger" src="img/bars.svg" alt="">
@@ -40,35 +40,42 @@
             <div class="mob-nav">
                 <nav>
                     <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Цены</a></li>
-                        <li><a href="#">Преимущества</a></li>
-                        <li><a href="#">Как мы работаем</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#main">Главная</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#price">Цены</a></li>
+                        <li><a href="#benefit">Преимущества</a></li>
+                        <li><a href="#how-work">Как мы работаем</a></li>
+                        <li><a href="#location">Контакты</a></li>
                     </ul>
                 </nav>
-                <p>+7 (915) 461-18-86</p>
+                <p><a href="tel:+79154611886">+7 (915) 461-18-86</a></p>
             </div>
+            <div class="back-for-burger-menu"></div>
         </div>
     </header>
     <main>
+        <a name="main"></a>
         <section id="first-section">
             <div class="container">
                 <div id="first-section-content">
-                    <h1>Прием и вывоз <br class="br-sm-none">металлолома до 32 000 р/т <br class="br-sm-none">Москва, Московская область</h1>
+                    <h1>Прием и вывоз <br class="br-sm-none">металлолома до <br class="br-xs-d">32 000 р/т <br
+                            class="br-sm-none">Москва,
+                        Московская область</h1>
                     <p class="main-description">Приём и вывоз чёрного и цветного Металла, демонтаж
-                        <br>металла-конструкций любой сложности.</p>
+                        <br class="br-sm-none">металла-конструкций любой сложности.
+                    </p>
                     <div class="main-btns">
-                        <a id="faegwefg" class="btn-link" href="#">Позвонить</a>
-                        <a id="btn-whatsapp" class="btn-link" href="#">Whatsapp</a>
+                        <a id="btn-call" class="btn-link" href="tel:+79154611886"><span>Позвонить</span></a>
+                        <a id="btn-whatsapp" class="btn-link" target="_blank"
+                            href="https://wa.me/+79154611886">Whatsapp</a>
                     </div>
                     <div id="arow-main-section">
-                        <img src="img/arrow.png" alt="">
+                        <a href="#about"><img src="img/arrow.png" alt=""></a>
                     </div>
                 </div>
             </div>
         </section>
+        <a name="about"></a>
         <section class="section" id="second-section">
             <div class="container">
                 <div id="second-section-content">
@@ -80,8 +87,7 @@
                         </div>
                         <div class="col-lg-6 col-md-12">
                             <div class="faerfawe">
-                                <h2>О компании</h2>
-                                <img id="m-second-section-picture" class="second-section-picture" src="img/picture-second-section.jpg" alt="">
+                                <h2 class="title-about-company">О компании</h2>
                                 <p class="description-second-section">Наша компания работает более 15 лет.Мы
                                     предоставляем профессиональные услуги демонтажа металлолома по Москве и Московской
                                     области,производим разборку различных конструкций и резку металла оперативно и
@@ -100,18 +106,20 @@
                                     оборудованием и инструментом, собственным транспортом для вывоза металлолома.
                                     Так же возможна оценка лома по фото или видео.<br>
                                     Наши цены на чёрный металл сегодня одни из самых высоких!</p>
+                                <img id="m-second-section-picture" class="second-section-picture"
+                                    src="img/picture-second-section.jpg" alt="">
                                 <div class="benefits-number-company">
                                     <div class="benefit-number-company">
                                         <p class="number-title">2000+</p>
                                         <p class="number-description">Довольных клиентов</p>
                                     </div>
                                     <div class="benefit-number-company">
-                                        <p class="number-title">3000+</p>
-                                        <p class="number-description">Выполненных работ</p>
-                                    </div>
-                                    <div class="benefit-number-company">
                                         <p class="number-title">15+</p>
                                         <p class="number-description">Лет радуем клиентов</p>
+                                    </div>
+                                    <div class="benefit-number-company">
+                                        <p class="number-title">3000+</p>
+                                        <p class="number-description">Выполненных работ</p>
                                     </div>
                                 </div>
                             </div>
@@ -120,9 +128,10 @@
                 </div>
             </div>
         </section>
+        <a name="price"></a>
         <section class="section" id="third-section">
             <div class="container">
-                <h2>Цены</h2>
+                <h2 class="title-section">Цены</h2>
                 <div id="third-section-content">
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-12">
@@ -183,9 +192,10 @@
                 </div>
             </div>
         </section>
+        <a name="benefit"></a>
         <section class="section" id="fourth-section">
             <div class="container">
-                <h2>Наши преимущества</h2>
+                <h2 class="title-section">Наши преимущества</h2>
                 <div id="fourth-section-content">
                     <div class="benefits">
                         <div class="benefit">
@@ -202,7 +212,7 @@
                         </div>
                         <div class="benefit">
                             <div class="icon-benefit">
-                                <img src="img/ic_fluent_vehicle_car_24_filled 1.svg" alt="">
+                                <img src="img/ic_fluent_vehicle_car_24_filled.svg" alt="">
                             </div>
                             <p>Свой автопарк</p>
                         </div>
@@ -222,15 +232,17 @@
                             <div class="icon-benefit">
                                 <img src="img/ic_fluent_access_time_24_filled 1.svg" alt="">
                             </div>
-                            <p>Работаем 24/7</p>
+                            <p class="text-24-benefit">Работаем 24/7</p>
+                            <p class="all-day-benefit">Работаем круглосуточно</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <a name="how-work"></a>
         <section class="section" id="fifth-section">
             <div class="container">
-                <h2>Как мы работаем</h2>
+                <h2 class="title-section">Как мы работаем</h2>
                 <div id="fifth-section-content">
                     <div class="circle-number-with-text">
                         <div class="circle-number">
@@ -257,10 +269,118 @@
                         <p>Оплата</p>
                     </div>
                     <img class="arrow-from-circle" src="img/Arrow1.svg" alt="">
+                    <span class="arrow-from-circle-m"></span>
+                </div>
+            </div>
+        </section>
+        <a name="location"></a>
+        <section class="section" id="sixth-section">
+            <div class="container">
+                <h2 class="title-section title-d">Где мы находимся</h2>
+                <h2 class="title-section title-m">Контакты</h2>
+                <div id="sixth-section-content">
+                    <div class="contact-m">
+                        <div class="info-on-map-text">
+                            <p><strong>Адрес:</strong> Москва, Мытищинский, деревня коргашино 53А/1</p>
+                            <p><strong>Телефон:</strong> +7 915 461 18 86</p>
+                            <p><strong>E-mail:</strong> ecocvetmet@mail.ru</p>
+                            <p><strong>Время работы:</strong> Круглосуточно</p>
+                        </div>
+                        <div class="social-networks-on-map">
+                            <div class="social-item">
+                                <a href=""><img src="img/tg.svg" alt=""></a>
+                            </div>
+                            <div id="social-item-inst" class="social-item">
+                                <a href="https://instagram.com/ecocvetmet?utm_medium=copy_link"><img src="img/inst.svg"
+                                        alt=""></a>
+                            </div>
+                            <div class="social-item">
+                                <a target="_blank" href="https://wa.me/+79154611886"><img src="img/whatsapp.svg"
+                                        alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-on-map">
+                        <div class="info-on-map-container">
+                            <h5>Контакты</h5>
+                            <div class="info-on-map-text">
+                                <p><strong>Адрес:</strong> Москва, Мытищинский, деревня коргашино 53А/1</p>
+                                <p><strong>Телефон:</strong> +7 (915) 461-18-86</p>
+                                <p><strong>E-mail:</strong> ecocvetmet@mail.ru</p>
+                                <p><strong>Время работы:</strong> Круглосуточно</p>
+                            </div>
+                            <div class="social-networks-on-map">
+                                <div class="social-item">
+                                    <a href=""><img src="img/tg.svg" alt=""></a>
+                                </div>
+                                <div id="social-item-inst" class="social-item">
+                                    <a href="https://instagram.com/ecocvetmet?utm_medium=copy_link"><img
+                                            src="img/inst.svg" alt=""></a>
+                                </div>
+                                <div class="social-item">
+                                    <a target="_blank" href="https://wa.me/+79154611886"><img src="img/whatsapp.svg"
+                                            alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-d">
+                        <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A629599db32df843167893c9341509f857db3e62bb40ea69e417cdf286797d9f8&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                    <div class="map-m">
+                        <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab234efe0deaccf3accc5320f6df3905cc5e5e047c83f074ccfb1208c9e03e754&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <p class="title-foter">Компания</p>
+                    <nav>
+                        <ul>
+                            <li><a href="#main">Главная</a></li>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#price">Цены</a></li>
+                            <li><a href="#benefit">Преимущества</a></li>
+                            <li><a href="#how-work">Как мы работаем</a></li>
+                            <li><a href="#location">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="contacts">
+                    <p class="title-foter">Контактная информация</p>
+                    <ul>
+                        <li><a href="tel:+79154611886"><img class="footer-icon" src="img/call-phone.svg"
+                                    alt="icon phone">+7 (915)
+                                461-18-86</a></li>
+                        <li><a href="mailto:ecocvetmet@mail.ru"><img class="footer-icon" src="img/email.svg"
+                                    alt="icon email">ecocvetmet@mail.ru</a></li>
+                        <li><img class="footer-icon" src="img/bx-building-house.svg" alt="icon address">
+                            <p>Москва, Мытищинский,<br>деревня коргашино 53А/1</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-networks">
+                    <p class="title-foter">Социальные сети</p>
+                    <ul>
+                        <li><a href=""><img class="footer-icon" src="img/Regular-S.svg" alt="icon phone">Telegram</a>
+                        </li>
+                        <li><a href="https://instagram.com/ecocvetmet?utm_medium=copy_link"><img class="footer-icon"
+                                    src="img/Regular-S2.svg" alt="icon email">Instagram</a>
+                        </li>
+                        <li><a target="_blank" href="https://wa.me/+79154611886"><img class="footer-icon"
+                                    src="img/Regular-S3.svg" alt="icon phone">WhatsApp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
