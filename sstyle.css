@@ -443,4 +443,7 @@ h2{
     .benefit{
         width: 50%;
     }
+    .container{
+        padding: 0 10px;
+    }
 }
