@@ -373,6 +373,15 @@ h2{
     line-height: 110.68%;
     color: #1A1A1A;
 }
+.info-on-map-text a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110.68%;
+    color: #1A1A1A;
+    text-decoration: none;
+}
 .social-networks-on-map{
     display: flex;
     justify-content: center;
