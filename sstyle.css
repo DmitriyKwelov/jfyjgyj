@@ -748,6 +748,9 @@ footer{
     footer{
         margin-top: 100px;
     }
+    #age-numer{
+        padding: 0 10px;
+    }
 }
 @media (max-width: 449px){
     .contacts{
