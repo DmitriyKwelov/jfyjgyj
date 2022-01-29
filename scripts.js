@@ -3,7 +3,6 @@ const mobMenu = document.querySelector('.mob-nav');
 const body = document.querySelector('body')
 const bg = document.querySelector('.back-for-burger-menu')
 const links = document.querySelectorAll('.m-nav-link')
-console.log(links);
 
 burger.onclick = function(){
     mobMenu.classList.toggle("active");
